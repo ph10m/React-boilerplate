@@ -1,0 +1,38 @@
+{
+  "name": "react-app-name",
+  "version": "0.0.1",
+  "description": "react boilerplate",
+  "main": "src/js/app.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack"
+  },
+  "homepage": "",
+  "repository": "",
+  "keywords": [
+    "react",
+    "webpack",
+    "react native",
+    "react starter",
+    "react boilerplate"
+  ],
+  "author": "Tollef Jørgensen",
+  "license": "MIT",
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "css-loader": "*",
+    "extract-text-webpack-plugin": "*",
+    "html-webpack-plugin": "*",
+    "node-sass": "*",
+    "prop-types": "^15.6.0",
+    "sass-loader": "*",
+    "webpack": "*"
+  }
+}
