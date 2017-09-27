@@ -24,14 +24,18 @@
   },
   "devDependencies": {
     "babel-core": "*",
+    "babel-eslint": "^8.0.1",
     "babel-loader": "*",
     "babel-preset-es2015": "*",
     "babel-preset-react": "*",
     "css-loader": "*",
+    "eslint": "^4.7.2",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-react": "^7.4.0",
     "extract-text-webpack-plugin": "*",
     "html-webpack-plugin": "*",
     "node-sass": "*",
-    "prop-types": "^15.6.0",
     "sass-loader": "*",
     "webpack": "*"
   }

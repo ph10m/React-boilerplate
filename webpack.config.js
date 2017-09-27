@@ -37,7 +37,12 @@ module.exports = {
                 query: {
                     presets:['es2015','react']
                 }
-            }
+            },
+            {
+              test: /\.(js|jsx)$/,
+              loader: 'eslint-loader',
+              exclude: /node_modules/, 
+            },
         ]
     },
     plugins: [
